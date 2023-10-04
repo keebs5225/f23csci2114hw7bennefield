@@ -1,4 +1,4 @@
-//A
+//104743
 public class bennefield7 {
 	public static void main(String[] args) {
 
@@ -14,10 +14,11 @@ public class bennefield7 {
 					break;
 				}
 			}
+			primeNum += 2;
 		}
 	}
-
-	static boolean isPrime(int num) {//find prime num
+	//find prime num
+	static boolean isPrime(int num) {
 	if (num <= 1) {
 		return false;
     	}

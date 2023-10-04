@@ -1,4 +1,4 @@
-//A
+//31875000
 public class bennefield9 {
     public static void main(String[] args) {
         int targetSum = 1000;

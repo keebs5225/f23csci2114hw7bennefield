@@ -1,13 +1,13 @@
-//A
+//142913828922
 public class bennefield10 {
     public static void main(String[] args) {
         int limit = 2000000;
-        int sum = sumPrimesBelowLimit(limit);
-        
+        long sum = sumPrimes(limit);
+
         System.out.println(sum);
     }
 
-    public static int sumPrimesBelowLimit(int limit) {
+    public static long sumPrimes(int limit) {
         boolean[] isPrime = new boolean[limit];
         for (int i = 2; i < limit; i++) {
             isPrime[i] = true;
@@ -21,7 +21,7 @@ public class bennefield10 {
             }
         }
 
-        int sum = 0;
+        long sum = 0;
         for (int i = 2; i < limit; i++) {
             if (isPrime[i]) {
                 sum += i;
