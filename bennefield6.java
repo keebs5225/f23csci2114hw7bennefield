@@ -1,4 +1,4 @@
-//answer
+//25164150
 public class bennefield6 {
 	public static void main(String[] args) {
 		int n = 100;
