@@ -1,4 +1,4 @@
-//A
+//23514624000
 public class bennefield8 {
     public static void main(String[] args) {
         String numberStr =
@@ -37,6 +37,6 @@ public class bennefield8 {
             }
         }
 
-        System.out.println("The greatest product of " + adjacentDigits + " adjacent digits is: " + maxProduct);
+        System.out.println(maxProduct);
     }
 }

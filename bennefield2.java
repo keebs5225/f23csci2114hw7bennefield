@@ -1,3 +1,4 @@
+//4613732
 public class bennefield2 {
     public static void main(String[] args) {
         int limit = 4000000;
@@ -15,6 +16,6 @@ public class bennefield2 {
             current = next;
         }
 
-        System.out.println("The sum of even Fibonacci terms not exceeding 4 million is: " + sum);
+        System.out.println(sum);
     }   
 }
